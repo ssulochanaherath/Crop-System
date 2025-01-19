@@ -1,3 +1,13 @@
 .custom-link {
-  @apply px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600;
+  @apply px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 hover:text-white;
+}
+
+.custom-link {
+  color: white; /* Default color for the link */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.custom-link:hover {
+  color: #ffffff; /* New hover color (e.g., orange-red) */
 }
