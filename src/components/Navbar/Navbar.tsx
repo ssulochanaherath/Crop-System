@@ -19,26 +19,26 @@ export function Navbar() {
               Dashboard
             </Link>
             <Link to="/field" className="custom-link">
-              Field Details
+              Field
             </Link>
             <Link to="/crop" className="custom-link">
-              Crop Details
+              Crop
             </Link>
             <Link to="/staff" className="custom-link">
-              Staff Details
+              Staff
             </Link>
             <Link to="/equipment" className="custom-link">
-              Equipment Details
+              Equipment
             </Link>
             <Link to="/log" className="custom-link">
-              Log Detalls
+              Log
             </Link>
             <Link to="/vehicle" className="custom-link">
-              Vehicle Details
+              Vehicle
             </Link>
           </div>
           <button
-            className="ml-auto flex items-center gap-2  bg-rose-700 text-bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-500 focus:outline-none focus:ring-2 focus:bg-indigo-700"
+            className="ml-auto flex items-center gap-2  bg-rose-700 text-bg-white px-4 py-2 rounded-md font-medium hover:bg-white focus:outline-none focus:ring-2 focus:bg-indigo-700"
             onClick={handleSignOut}
           >
             <Power className="h-5 w-5" />
