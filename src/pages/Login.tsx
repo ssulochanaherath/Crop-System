@@ -25,7 +25,7 @@ export function Login() {
       >
         <div className="mb-12">
           <h3 className="text-gray-800 text-3xl text-center font-bold">
-            Green Shadow Login
+            Login
           </h3>
         </div>
 
