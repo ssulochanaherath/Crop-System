@@ -1,7 +1,7 @@
 export function Togglepage({children, onClick}) {
   return (
     <>
-      <p className="text-gray-800 text-sm mt-4 text-center">
+      <p className="text-bg-white text-sm mt-4 text-center">
         Don't have an account?{" "}
         <button
           type="button"
