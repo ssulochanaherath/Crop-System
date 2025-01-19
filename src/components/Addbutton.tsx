@@ -6,7 +6,7 @@ export function Addbutton({ children, onClick }) {
   return (
     <>
       <motion.button
-        className="flex items-center bg-green-500 text-white px-6 py-4 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75"
+        className="flex items-center bg-slate-700 text-white px-6 py-4 rounded-md hover:bg-slate-400 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.11, ease: easeIn }}

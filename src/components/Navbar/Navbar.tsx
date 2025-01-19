@@ -11,7 +11,7 @@ export function Navbar() {
   };
   return (
     <>
-      <header className="bg-green-500 shadow-lg sticky top-0 z-50">
+      <header className="bg-slate-950 shadow-lg sticky top-0 z-50">
         <nav className="px-4 py-3 flex items-center">
           <div className="flex items-center text-white space-x-4">
             <h1 className="mt-1 text-xl mr-6">Green Shadow</h1>
