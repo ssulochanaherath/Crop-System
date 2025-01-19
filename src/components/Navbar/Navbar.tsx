@@ -38,7 +38,7 @@ export function Navbar() {
             </Link>
           </div>
           <button
-            className="ml-auto flex items-center gap-2  bg-rose-700 text-bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="ml-auto flex items-center gap-2  bg-rose-700 text-bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-500 focus:outline-none focus:ring-2 focus:bg-indigo-700"
             onClick={handleSignOut}
           >
             <Power className="h-5 w-5" />
