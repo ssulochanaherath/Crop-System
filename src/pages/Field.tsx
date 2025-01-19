@@ -39,11 +39,11 @@ export function Field() {
       </motion.h1>
       <div className="flex flex-wrap gap-6">
         <div className="flex-grow">
-          <Cards />
+          {/* <Cards /> */}
         </div>
         <div className="flex-shrink-0">
           <div className="relative h-full mr-10">
-            <Calender />
+            {/* <Calender /> */}
           </div>
         </div>
       </div>
